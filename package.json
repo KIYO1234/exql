@@ -1,0 +1,28 @@
+{
+  "name": "exql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KIYO1234/exql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KIYO1234/exql/issues"
+  },
+  "homepage": "https://github.com/KIYO1234/exql#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15"
+  }
+}
